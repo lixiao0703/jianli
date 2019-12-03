@@ -27,3 +27,11 @@
 	  document.documentElement.style.fontSize = (deviceWidth / 7.5) + 'px';
 	}
 </script>
+
+<style type="text/css">
+    #app{
+       width:100%; 
+       min-width:1000px; 
+       width:expression_r(document.body.clientWidth < 1000 ? "1000px": "auto" ); 
+    }
+</style>

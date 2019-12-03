@@ -1,8 +1,9 @@
 <template>
     <div>
         <home-header></home-header>
-        <home-navigation></home-navigation>
         <home-table></home-table>
+        <home-navigation></home-navigation>
+        <home-thome></home-thome>
     </div>
 </template>
 
@@ -10,12 +11,14 @@
   import HomeHeader from './components/Header'
   import HomeNavigation from './components/Navigation'
   import HomeTable from './components/Table'
+  import HomeThome from './components/Thome'
   export default{
     name:'Home',
     components:{
       HomeHeader,
       HomeNavigation,
-      HomeTable
+      HomeTable,
+      HomeThome
     }
 
   }
